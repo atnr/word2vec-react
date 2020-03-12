@@ -66,7 +66,7 @@ const Main = () => {
 
   return (
     <section>
-      <h1>search synonym</h1>
+      <h1>search nearest word</h1>
       <input
         value={inputData}
         onChange={e => setInputData(e.target.value)}
